@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Analytics for WordPress — by Segment.io
+Plugin Name: Analytics for WordPress — by Segment.io, adapted for Astronomer
 Plugin URI: https://segment.io/plugins/wordpress
 Description: The hassle-free way to integrate any analytics service into your WordPress site.
 Version: 1.0.13
 License: GPLv2
-Author: Segment.io
+Author: Astronomer
 Author URI: https://segment.io
 Author Email: friends@segment.io
 */
@@ -359,7 +359,7 @@ class Segment_Analytics_WordPress {
 					'fields'   => array(
 						array(
 							'name'            => 'api_key',
-							'title'           => __( 'Segment API Write Key', 'segment' ),
+							'title'           => __( 'Astronomer App ID', 'segment' ),
 							'callback'        => array( 'Segment_Settings', 'api_key_callback' ),
 						)
 					)

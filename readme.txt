@@ -1,8 +1,8 @@
-=== Analytics for WordPress — by Segment ===
-Contributors: segmentio, JustinSainton
-Tags: analytics, web analytics, segment.io, google analytics, kissmetrics, mixpanel, chartbeat, hubspot, marketo, quantcast, tag manager
+=== Analytics for WordPress — by Segment, adapted for Astronomer ===
+Contributors: segmentio, JustinSainton, JulianLaNeve
+Tags: analytics, web analytics, astronomer.io, google analytics, kissmetrics, mixpanel, chartbeat, hubspot, marketo, quantcast, tag manager
 Requires at least: 3.6
-Tested up to: 4.0
+Tested up to: 4.5
 Stable tag: 1.0.13
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -14,38 +14,31 @@ Analytics for WordPress lets you integrate more than 100 analytics and marketing
 
 Analytics for WordPress is the easiest way to integrate analytics and marketing tools into your WordPress site.
 
-Instead of installing each tool individually, just install Segment's WordPress plugin and use Segment to integrate third-party analytics and marketing tools.   Once you're setup, you can swap and add new analytics services with the flick of a switch!
+Instead of installing each tool individually, just install Astronomer's WordPress plugin and use AStronomer to integrate third-party analytics and marketing tools.   Once you're setup, you can swap and add new analytics services with the flick of a switch!
 
 Here's how it works:
-* Install the Segment plugin
-* Segment will automatically start tracking how people are using your site – what pages they view and the information they provide to you, like their emails
-* Go to the Segment control panel, and toggle on any tool you want to try like Google Analytics, KISSmetrics and Facebook Audiences
-* Segment will send this data along to each tool
+* Install the Astronomer plugin
+* Astronomer will automatically start tracking how people are using your site – what pages they view and the information they provide to you, like their emails
+* Go to the Astronomer control panel, and toggle on any tool you want to try like Google Analytics, KISSmetrics and Facebook Audiences
+* Astronomer will send this data along to each tool
 * The service is fully integrated into your site–zero code required!
-
-You can use Segment to try out more than a hundred vendors in a number of categories. Here are just a few of our most popular integrations:
-* **Advertising** – AdRoll, Google Adwords, Facebook Audiences, Twitter Ads, Quantcast, AppNexus
-* **Analytics** – Google Analytics, KISSmetrics, Mixpanel, Amplitude, Chartbeat, Go Squared
-* **CRM** – Salesforce, Zendesk, Gainsight, Frontleaf
-* **Email** – Customer.io, Outbound, Vero, Marketo, MailChimp, Hubspot
-* **Optimization** – Optimizely, CrazyEgg, Visual Website Optimizer
 
 Get started with Analytics for WordPress today!
 
 == Installation ==
 
 1. Go to the **Plugins > Add New** page in your WordPress admin.
-1. Search for "Segment" and install **Analytics for WordPress — by Segment.io**.
-1. Click **Activate Plugin**.
-1. Go to **Settings > Analytics** and enter your Segment API key. (If you haven't signed up for Segment yet, now's the time!)
+2. Search for "Astronomer" and install **Analytics for WordPress — by Segment.io, adapted for Astronomer**.
+3. Click **Activate Plugin**.
+4. Go to **Settings > Analytics** and enter your Astronomer API key. (If you haven't signed up for Astronomer yet, now's the time!)
 
-That's it! You can now turn on any analytics service with the flick of a switch in the Segment control panel.
+That's it! You can now turn on any analytics service with the flick of a switch in the Astronomer control panel.
 
 
 == Frequently Asked Questions ==
 
 = What analytics services does it support? =
-Tons! Google Analytics, Mixpanel, KISSmetrics, Chartbeat, Clicky, Intercom, CrazyEgg, Customer.io, Gauges, GoSquared, HubSpot, Marketo, Olark, Quantcast, Vero, and more... You can check out [the full list](https://segment.io/integrations).
+Tons! You can check out the full list [here]](https://astronomer.io/integrations).
 
 = What user information does it record automatically? =
 We automatically identify users that are logged in to your WordPress site, and record their `name`, `email`, `username`, and `website`, so you don't need to write any special code to handle that yourself. It also identifies commenters if it can.
@@ -67,7 +60,7 @@ So very much.  The two biggest enhancements for developers are the introduction 
 
 Beyond that, we've completely refactored the plugin to use all of the appropriate WordPress APIs (Like the Settings API) and have added a easily extendable abstract class for eCommerce platforms.  On top of all of that, all of our filters, classes, functions and methods are fully documented inline.
 
-Need to add custom settings?  By hooking into our `segment_default_settings` and `segment_settings_core_validation` filters, you can quickly and easily add your own settings to the Segment plugin.
+Need to add custom settings?  By hooking into our `segment_default_settings` and `segment_settings_core_validation` filters, you can quickly and easily add your own settings to the Astronomer plugin.
 
 
 == Screenshots ==

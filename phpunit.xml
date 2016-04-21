@@ -16,7 +16,7 @@
 		 strict="false"
 		 bootstrap="tests/bootstrap.php">
 	<testsuites>
-		<testsuite name="Segment.io Analytics Test Suite">
+		<testsuite name="Astronomer.io Analytics Test Suite">
 			<directory suffix=".php">./tests</directory>
 		</testsuite>
 	</testsuites>

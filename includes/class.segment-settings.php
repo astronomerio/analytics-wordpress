@@ -4,7 +4,7 @@ class Segment_Settings {
 
 	public static function general_section_callback() {
 		?>
-		<p style="max-width: 49em"><?php _e( 'Once you&rsquo;ve saved your API key, you can swap and add integrations right from the Segment.io interface. Any integrations you turn on will be live within 10 minutes. No more touching any code!', 'segment' ); ?></p>
+		<p style="max-width: 49em"><?php _e( 'Once you&rsquo;ve saved your API key, you can swap and add integrations from the Astronomer interface. Any integrations you turn on will be live within 10 minutes. No more touching any code!', 'segment' ); ?></p>
 		<?php
 	}
 
@@ -20,7 +20,7 @@ class Segment_Settings {
 		$name     = Segment_Analytics_WordPress::get_instance()->get_option_name() . '[api_key]';
 	?>
 			<input class="regular-text ltr" type="text" name="<?php echo esc_attr( $name ); ?>" id="api_key" value="<?php echo esc_attr( $settings['api_key'] ); ?>" />
-			<p class="description"><?php _e( 'You can find your API Write Key in Project Settings > API Keys in your Segment.io Dashboard.', 'segment' ); ?></p>
+			<p class="description"><?php _e( 'You can find your App ID in Settings > App ID in your Astronomer.io Dashboard (app.astronomer.io).', 'segment' ); ?></p>
 		<?php
 
 	}
